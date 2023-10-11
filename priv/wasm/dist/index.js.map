@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.js"],
+  "sourcesContent": ["\nexport function foo() {\n  const input = JSON.parse(Host.inputString());\n  input.foo = input.foo + ' and more';\n  Host.outputString(JSON.stringify(input));\n}\n\n\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AACO,SAAS,MAAM;AACpB,QAAM,QAAQ,KAAK,MAAM,KAAK,YAAY,CAAC;AAC3C,QAAM,MAAM,MAAM,MAAM;AACxB,OAAK,aAAa,KAAK,UAAU,KAAK,CAAC;AACzC;",
+  "names": []
+}
